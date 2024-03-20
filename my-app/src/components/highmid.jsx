@@ -3,6 +3,7 @@ import ScrollReveal from 'scrollreveal';
 import '../components/highmid.css';
 import procape from '../assets/procape.png';
 
+
 function Highmid() {
     
     function applyScrollReveal() {
@@ -27,10 +28,10 @@ function Highmid() {
     return (
         <div className='highmid-container'>
             <div className='img-container'>
-                {/* Imagem */}
+                
                 <img className='img' src={procape} alt="img" />
                 
-                {/* Container de texto */}
+                
                 <div className='text-container'>
                     <span className='textomid'>Transforme sua experiência de saúde.</span>
                     <span className='textomid'>Agendamentos fáceis,</span>
